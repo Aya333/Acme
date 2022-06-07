@@ -15,6 +15,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #89d5c9;
+  /* color: hsla(16, 100%, 67%, 0.8); */
   color: #ff8357;
 }
 .header-div ul {
@@ -27,11 +28,12 @@ body {
 }
 .header-div ul li a {
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-family: "Tiro Gurmukhi", serif;
 }
 
 a:link {
+  /* color: hsla(16, 100%, 67%, 0.9); */
   color: #ff8357;
 }
 a:hover {
@@ -68,6 +70,7 @@ a:active {
   justify-content: space-around;
   align-items: center;
   background-color: #89d5c9;
+  /* color: hsla(16, 100%, 67%, 0.8); */
   color: #ff8357;
   font-size: 1.1em;
   font-family: "Tiro Gurmukhi", serif;
@@ -88,6 +91,7 @@ a:active {
   float: right;
   width: 35%;
   height: 35px;
+  /* background-color: hsla(16, 100%, 67%, 0.8); */
   background-color: #ff8357;
   font-family: "Tiro Gurmukhi", serif;
   font-size: 0.8em;
@@ -117,6 +121,7 @@ a:active {
   width: 80%;
   font-family: "Tiro Gurmukhi", serif;
   font-size: 0.9em;
+  /* color: hsla(16, 100%, 67%, 0.8); */
   color: #ff8357;
   line-height: 1.5;
   padding: 7px;
@@ -152,6 +157,7 @@ a:active {
   height: auto;
   margin: auto 30px;
   padding: 20px;
+  /* color: hsla(16, 100%, 67%, 0.9); */
   color: #ff8357;
   line-height: 1.5;
 }
@@ -162,6 +168,7 @@ a:active {
   align-items: flex-start;
   width: 70%;
   height: auto;
+  /* background-color: hsla(16, 100%, 67%, 0.8); */
   background-color: #ff8357;
   color: white;
   margin: auto 30px;
@@ -170,7 +177,9 @@ a:active {
 
 .last {
   display: flex;
+  /* background-color: hsla(16, 100%, 67%, 0.8); */
   background-color: #ff8357;
+
   color: white;
   width: 80%;
   height: auto;
@@ -180,12 +189,88 @@ a:active {
 }
 
 /* ---------------------------------------------------------------------- */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+}
+/* .div-container {
+  border: 3px solid #adc965;
+} */
+.div-container h2 {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: bold;
+  color: #fac172;
+}
+.form-div h3 {
+  text-align: left;
+  font-family: "Joan", serif;
+  font-weight: bold;
+  color: #fac172;
+}
+.form-div form {
+  border: 2px solid #adc965;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  height: auto;
+  padding: 5px 30px 30px;
+  margin-top: 20px;
+  /* background-color: hsla(171, 48%, 69%, 0.2); */
+  background-color: hsla(77, 77%, 70%, 0.4);
+}
+.form-div input,
+textarea {
+  line-height: 2;
+  padding: 10px auto;
+  width: 100%;
+  height: auto;
+  border: 1px solid #adc965;
+}
+.form-div label {
+  color: #fac172;
+}
+.form-div input[type="button"] {
+  width: 35%;
+  height: 35px;
+  background-color: #fac172;
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 0.8em;
+  color: white;
+  border-style: none;
+  margin-top: 10px;
+}
+.services {
+  border: 1px solid #adc965;
+  /* background-color: hsla(77, 70%, 70%, 0.4) ; */
+  background-color: hsla(77, 77%, 70%, 0.4);
+  /* background-color: hsla(171, 48%, 69%, 0.2); */
+  /* background-color: hsla(35, 78%, 79%, 0.2); */
+  margin: 20px;
+  padding: 10px;
+  color: #fac172;
+}
+.services p {
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 1em;
+}
+.services h3 {
+  font-family: "Joan", serif;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------------- */
 
 footer {
   width: 100%;
   height: 80px;
-  background-color: #fac172;
+  background-color: #f8c680;
   color: white;
+  /* background-color: #adc965;
+  color: #fac172; */
   font-size: 1.5em;
   font-family: "Joan", serif;
   text-align: center;
